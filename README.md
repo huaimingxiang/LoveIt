@@ -1,6 +1,6 @@
 # LoveIt
 
-[huaimingxiang]<huaimingxiang.site>
+[huaimingxiang.site](https://huaimingxiang.site)
 
 ![](http://ubtcn.huaimingxiang.top:8830/images/2021/12/18/20211218133155.png)
 
