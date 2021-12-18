@@ -1,0 +1,25 @@
+baseURL: https://hugo-toha.github.io
+
+languageCode: en-us
+title: "John's Blog"
+theme: "toha"
+
+# Manage languages
+# For any more details, you can check the official documentation: https://gohugo.io/content-management/multilingual/
+languages:
+  en:
+    languageName: English
+    weight: 1
+
+# Enable global emoji support
+enableEmoji: true
+
+# Site parameters
+params:
+  # specify whether you want to write some blog posts or not
+  enableBlogPost: false
+
+  # Provide newsletter configuration. This feature hasn't been implemented yet.
+  # Currently, you can just hide it from the footer.
+  newsletter:
+    enable: true
