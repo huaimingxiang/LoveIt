@@ -8,10 +8,10 @@
         <title>Spring boot学习第一天总结 - Sunshine</title><meta name="Description" content="Spring Boot是由Pivotal团队提供的全新框架，其设计目的是用来简化新Spring应用的初始搭建以及开发过程。"><meta property="og:title" content="Spring boot学习第一天总结" />
 <meta property="og:description" content="Spring Boot是由Pivotal团队提供的全新框架，其设计目的是用来简化新Spring应用的初始搭建以及开发过程。" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="http://ubtcn.huaimingxiang.top/2021-12-16/" />
-<meta property="og:image" content="http://ubtcn.huaimingxiang.top/logo.png"/>
+<meta property="og:url" content="http://ubtcn.huaimingxiang.top/2021-12-16/" /><meta property="og:image" content="http://ubtcn.huaimingxiang.top/logo.png"/><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2021-12-16T16:40:37+08:00" />
 <meta property="article:modified_time" content="2021-12-16T16:40:37+08:00" />
+
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="http://ubtcn.huaimingxiang.top/logo.png"/>
 
@@ -144,7 +144,7 @@
 <p>hashmap等数据结构，参数是范型，不需要传入对应的类型，HashMap&lt;&gt;；</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span><span class="lnt">3
 </span><span class="lnt">4
@@ -154,7 +154,7 @@
 </span><span class="lnt">8
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-java" data-lang="java">       <span class="nd">@RequestMapping</span><span class="o">(</span><span class="n">value</span> <span class="o">=</span> <span class="s">&#34;mapValue&#34;</span><span class="o">)</span>
+<pre tabindex="0" class="chroma"><code class="language-java" data-lang="java">       <span class="nd">@RequestMapping</span><span class="o">(</span><span class="n">value</span> <span class="o">=</span> <span class="s">&#34;mapValue&#34;</span><span class="o">)</span>
        <span class="nd">@ResponseBody</span>
        <span class="kd">public</span> <span class="n">Map</span><span class="o">&lt;</span><span class="n">String</span><span class="o">,</span><span class="n">Object</span><span class="o">&gt;</span> <span class="nf">mapValue</span><span class="o">(){</span>
    				<span class="c1">//Map&lt;String,Object&gt; retMap = new HashMap&lt;String,Object&gt;();
@@ -169,7 +169,7 @@
 Springboot官方建议使用final来修饰成员变量，然后通过构造方法来进行注入；</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span><span class="lnt">3
 </span><span class="lnt">4
@@ -180,26 +180,26 @@ Springboot官方建议使用final来修饰成员变量，然后通过构造方�
 </span><span class="lnt">9
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-java" data-lang="java">   <span class="nd">@Controller</span>
+<pre tabindex="0" class="chroma"><code class="language-java" data-lang="java">   <span class="nd">@Controller</span>
    <span class="kd">public</span> <span class="kd">class</span> <span class="nc">IndexController</span> <span class="o">{</span>
    
        <span class="c1">//@Autowired 
 </span><span class="c1"></span>       <span class="c1">//private Define define;
 </span><span class="c1"></span>       <span class="kd">private</span> <span class="kd">final</span> <span class="n">Define</span> <span class="n">define</span><span class="o">;</span>
    
-       <span class="o">....</span>
+     	<span class="o">....</span>
    <span class="o">}</span>
 </code></pre></td></tr></table>
 </div>
 </div><h2 id="3核心文件配置">3.核心文件配置</h2>
 <p>多核心配置文件，支持多环境配置文件的切换</p>
-<p><img src="http://ubtcn.huaimingxiang.top:8830/images/2021/12/17/202112170035123.png" alt="image-20211217003423689" style="zoom:50%;" /></p>
+<img src="http://ubtcn.huaimingxiang.top:8830/images/2021/12/17/202112170035123.png" alt="image-20211217003423689" style="zoom:50%;" />
 <h2 id="4多文件配置">4.多文件配置</h2>
 <p>自定义核心配置文件
 对于报警信息，可以通过增加配置依赖来解决</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt"> 1
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
 </span><span class="lnt"> 3
 </span><span class="lnt"> 4
@@ -211,12 +211,12 @@ Springboot官方建议使用final来修饰成员变量，然后通过构造方�
 </span><span class="lnt">10
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-java" data-lang="java">  <span class="n">define</span><span class="o">:</span>
+<pre tabindex="0" class="chroma"><code class="language-java" data-lang="java">  <span class="n">define</span><span class="o">:</span>
     <span class="n">name</span><span class="o">:</span> <span class="n">huaimingxiang</span>
     <span class="n">password</span><span class="o">:</span> <span class="n">Cpic831205</span>
   
   <span class="o">&lt;!--</span> <span class="n">config配置依赖</span> <span class="o">--&gt;</span>
-      <span class="o">&lt;</span><span class="n">dependency</span><span class="o">&gt;</span>
+  	<span class="o">&lt;</span><span class="n">dependency</span><span class="o">&gt;</span>
   <span class="o">&lt;</span><span class="n">groupId</span><span class="o">&gt;</span> <span class="n">org</span><span class="o">.</span><span class="na">springframework</span><span class="o">.</span><span class="na">boot</span><span class="o">&lt;/</span><span class="n">groupId</span><span class="o">&gt;</span>
   <span class="o">&lt;</span><span class="n">artifactId</span><span class="o">&gt;</span><span class="n">spring</span><span class="o">-</span><span class="n">boot</span><span class="o">-</span><span class="n">configuration</span><span class="o">-</span><span class="n">processor</span><span class="o">&lt;/</span><span class="n">artifactId</span><span class="o">&gt;</span>
   <span class="o">&lt;</span><span class="n">optional</span><span class="o">&gt;</span><span class="kc">true</span><span class="o">&lt;/</span><span class="n">optional</span><span class="o">&gt;</span>
