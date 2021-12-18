@@ -291,7 +291,7 @@ enableEmoji = true
     since = 2021
     # ICP info only in China (HTML format is supported)
     # ICP 备案信息，仅在中国使用 (支持 HTML 格式)
-    icp = "<a style=\"\" target=\"_blank\" rel=\"noopener\" href=\"http://beian.miit.gov.cn/\">沪ICP备2020034917号 |</a><a style=\"\" target=\"_blank\" rel=\"noopener\" href=\"http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=31011702007891\">沪公网安备31011702007891号</a>"
+    icp = "<a style=\"\" target=\"_blank\" rel=\"noopener\" href=\"http://beian.miit.gov.cn/\">沪ICP备2020034917号 | </a><a style=\"\" target=\"_blank\" rel=\"noopener\" href=\"http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=31011702007891\">沪公网安备31011702007891号</a>"
     # license info (HTML format is supported)
     # 许可协议信息 (支持 HTML 格式)
     # license= '<a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
@@ -425,12 +425,12 @@ enableEmoji = true
       Whatsapp = false
       Pinterest = false
       Tumblr = false
-      HackerNews = true
+      HackerNews = false
       Reddit = false
       VK = false
       Buffer = false
       Xing = false
-      Line = true
+      Line = false
       Instapaper = false
       Pocket = false
       Digg = false
@@ -442,7 +442,7 @@ enableEmoji = true
       Blogger = false
       Baidu = false
       Odnoklassniki = false
-      Evernote = false
+      Evernote = true
       Skype = false
       Trello = false
       Mix = false
@@ -677,7 +677,7 @@ enableEmoji = true
 [author]
   name = "huaimingxiang"
   email = "kidhsks@hotmail.com"
-  link = "huaimingxiang.site"
+  link = ""
 
 # Sitemap config
 # 网站地图配置
