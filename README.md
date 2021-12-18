@@ -7,24 +7,24 @@
 ### 这个一个什么东西
 1. LoveIt是一个hugo的主题，
 Hugo是由Go语言实现的静态网站生成器。简单、易用、高效、易扩展、快速部署。
-2. 在mac系统下面：
+2. 在mac系统hugo配置：
 ``` shell
     # 使用 Homebrew 安装
     brew install hugo
 
-    # 使用Hugo快速生成站点
-    hugo new site /path/to/site
+    # 使用Hugo快速生成站点，已经有网址了
+    #hugo new site /path/to/site
 
     # 安装themes 目录
     # 有很多不同的皮肤的，可以自己选择
-    git clone https://github.com/spf13/hyde.git
+    git clone https://github.com/LoveIt/LoveIt.github.io.git
     
     # 创建一个 about 页面
     hugo new about.md
 
     # Hugo 命令进行调试
     # http://localhost:1313 访问
-    hugo server --theme=hyde --buildDrafts
+    hugo server --buildDrafts
 
     
     # Hugo 生成静态代码，在public目录下面
@@ -44,6 +44,38 @@ Hugo是由Go语言实现的静态网站生成器。简单、易用、高效、�
     # server_name监听域名，自己的域名
     # location{}，root指定对应uri的资源查找路径，index指定首页index文件的名称
 
+```
+
+3. 在mac系统nginx配置：
+``` shell
+# 1313端口的配置
+server
+{ 
+    listen 1313;
+    server_name ubtcn.huaimingxiang.top;
+    index index.php index.html index.htm default.php default.htm default.html;
+    root /home/huaimingxiang/git/my_website/public/;
+
+    #禁止访问的文件或目录
+    location ~ ^/(\.user.ini|\.htaccess|\.git|\.svn|\.project|LICENSE|README.md)
+    {
+        return 404;
+    }
+
+    location ~ .*\.(gif|jpg|jpeg|png|bmp|swf)$
+    {
+        expires      30d;
+        error_log /dev/null;
+        access_log /dev/null;
+    }
+
+    location ~ .*\.(js|css)?$
+    {
+        expires      12h;
+        error_log /dev/null;
+        access_log /dev/null;
+    }
+}
 ```
 
 ## 对于大家有什么借鉴意义
