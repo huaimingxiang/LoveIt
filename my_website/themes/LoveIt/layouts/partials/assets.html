@@ -8,8 +8,7 @@
 {{- dict "Source" $source "Fingerprint" $fingerprint | dict "Scratch" .Scratch "Data" | partial "scratch/script.html" -}}
 
 {{- /* Search */ -}}
-{{- if .Site.Params.s
-    earch | and .Site.Params.search.enable -}}
+{{- if .Site.Params.search | and .Site.Params.search.enable -}}
     {{- $search := .Site.Params.search -}}
     {{- $source := $cdn.autocompleteJS | default "lib/autocomplete/autocomplete.min.js" -}}
     {{- dict "Source" $source "Fingerprint" $fingerprint | dict "Scratch" .Scratch "Data" | partial "scratch/script.html" -}}
