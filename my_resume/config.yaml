@@ -1,14 +1,15 @@
-baseURL: https://hugo-toha.github.io
+baseURL: http://ubtcn.huaimingxiang.top/
 
-languageCode: en-us
-title: "John's Blog"
-theme: "toha"
+languageCode: en
+title: Dave Huai's Resume
+theme: toha
+description: Portfolio and personal resume of Dave Huai
 
 # Manage languages
 # For any more details, you can check the official documentation: https://gohugo.io/content-management/multilingual/
 languages:
   en:
-    languageName: English
+    languageName: english
     weight: 1
 
 # Enable global emoji support
@@ -22,4 +23,29 @@ params:
   # Provide newsletter configuration. This feature hasn't been implemented yet.
   # Currently, you can just hide it from the footer.
   newsletter:
-    enable: true
+    enable: false
+
+# Copyright Notice
+copyright: © 2020 Copyright.
+
+# some information about you
+name: Dave Huai
+nickname: Dave
+# greeting message before your name. it will default to "Hi! I am" if not provided
+greeting: Hi, I am
+image: images/author/john.png
+# give your some contact information. they will be used in the footer
+contactInfo:
+  email: kidhsks@hotmail.com
+  phone: 086-17701767626
+# some summary about what you do
+summary:
+  - I am a Developer
+  - I work on projects of Insurance
+  - I love to work with some fun projects
+
+
+
+
+
+
