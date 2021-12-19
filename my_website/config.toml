@@ -101,7 +101,7 @@ enableEmoji = true
         # 是否隐藏网站图标资源链接
         noFavicon = false
         # 更现代的 SVG 网站图标, 可替代旧的 .png 和 .ico 文件
-        svgFavicon = "/image/avatar.png"
+        svgFavicon = "/images/avatar.png"
         # Android 浏览器主题色
         themeColor = "#ffffff"
         # Safari 图标颜色
@@ -266,7 +266,7 @@ enableEmoji = true
       # you can add extra information after the name (HTML format is supported), such as icons
       # 你可以在名称 (允许 HTML 格式) 之后添加其他信息, 例如图标
       post = ""
-      # whether to use typeit animation for title name
+      # whether to use typeit animaton for title name
       # 是否为标题显示打字机动画
       typeit = false
 
