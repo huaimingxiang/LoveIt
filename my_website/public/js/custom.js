@@ -53,15 +53,6 @@ jQuery(document).ready(function($) {
     });
 });
 
-/* 轮播背景图片 */
-$(function () {
-	$.backstretch([
-		  "111.png",
-		  "222.png",
-		  "333.png"
-	], { duration: 60000, fade: 1500 });
-});
-
 /* 拉姆蕾姆回到顶部或底部按钮 */
 $(function() {
 	$("#lamu img").eq(0).click(function() {
