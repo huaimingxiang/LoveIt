@@ -56,7 +56,9 @@ jQuery(document).ready(function($) {
 /* 轮播背景图片 */
 $(function () {
 	$.backstretch([
-		  "android-chrome-192x192.png"
+		  "111.png",
+		  "222.png",
+		  "333.png"
 	], { duration: 60000, fade: 1500 });
 });
 
@@ -75,10 +77,10 @@ $(function() {
 /* 后置加载页面组件的背景图片 */
 $(function() {
 	/* 首页头像div加载GitHub Chart作为背景图片 */
-	$("div.home-avatar").attr('style', "background: url(http://ubtcn.huaimingxiang.top:8830/image/AhGD);background-repeat: no-repeat;background-position: center;background-size: auto 7.5rem;");
+	$("div.home-avatar").attr('style', "background: url(111.png);background-repeat: no-repeat;background-position: center;background-size: auto 7.5rem;");
 
 	/* 评论框加载背景图片 */
-	$(".v[data-class=v] .veditor").attr('style', "background-image: url(http://ubtcn.huaimingxiang.top:8830/image/A5tO) !important;");
+	$(".v[data-class=v] .veditor").attr('style', "background-image: url(222.png) !important;");
 });
 
 function getCurrentDateString() {
