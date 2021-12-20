@@ -74,31 +74,14 @@ $(function() {
 	});
 });
 
-/* 后置加载页面组件的背景图片 */
-$(function() {
-	/* 首页头像div加载GitHub Chart作为背景图片 */
-	$("div.home-avatar").attr('style', "background: url(111.png);background-repeat: no-repeat;background-position: center;background-size: auto 7.5rem;");
-
-	/* 评论框加载背景图片 */
-	$(".v[data-class=v] .veditor").attr('style', "background-image: url(222.png) !important;");
-});
-
-function getCurrentDateString() {
-	var now = new Date();
-	var month = now.getMonth() + 1;
-	var day = now.getDate();
-	var hour = now.getHours();
-	return "" + now.getFullYear() + (month < 10 ? "0" + month : month) + (day < 10 ? "0" + day : day) + (hour < 10 ? "0" + hour : hour);
-}
-
 /* 离开当前页面时修改网页标题，回到当前页面时恢复原来标题 */
 window.onload = function() {
   var OriginTitile = document.title;
   var titleTime;
   document.addEventListener('visibilitychange', function() {
     if(document.hidden) {
-      $('[rel="icon"]').attr('href', "/failure.ico");
-      $('[rel="shortcut icon"]').attr('href', "/failure.ico");
+      $('[rel="icon"]').attr('href', "/favicon-32x32.png");
+      $('[rel="shortcut icon"]').attr('href', "/favicon-32x32.png");
       document.title = '喔唷，崩溃啦！';
       clearTimeout(titleTime);
     } else {
