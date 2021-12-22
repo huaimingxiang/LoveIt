@@ -188,7 +188,7 @@ function setRandomImage(imgs) {
     $.backstretch(imgs[index]);  
 };
 setRandomImage(images);
-setInterval(setRandomImage, 30000, images);
+setInterval(setRandomImage, 60000, images);
 
 
 /* 拉姆蕾姆回到顶部或底部按钮 */
