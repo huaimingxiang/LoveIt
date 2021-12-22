@@ -57,29 +57,6 @@
             </noscript>
         {{- end -}}
 
-        {{- /* Waline Comment System */ -}}
-        {{- $waline := $comment.waline | default dict -}}
-        {{- if $waline.enable -}}
-            <div id="waline"></div>
-			<script src='{{ $waline.js }}'></script>
-
-			<script>
-		    	new Waline({
-		    	  el: '#waline',
-				  meta: {{ $waline.meta }},
-				  placeholder: {{ $waline.placeholder }},
-		    	  serverURL: {{ $waline.serverURL }},
-		    	  avatarCDN: {{ $waline.avatarCDN }},
-		    	  requiredFields: {{ $waline.requiredFields }},
-		    	  pageSize: {{ $waline.pageSize }},
-		    	  avatar: {{ $waline.avatar }},
-		    	  lang: {{ $waline.lang }},
-				  visitor: {{ $waline.visitor }},
-				  highlight: {{ $waline.highlight }}
-		    	});
-		    </script>
-        {{- end -}}
-
         {{- /* Facebook Comment System */ -}}
         {{- $facebook := $comment.facebook | default dict -}}
         {{- if $facebook.enable -}}
