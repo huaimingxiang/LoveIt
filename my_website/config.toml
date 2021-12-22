@@ -241,6 +241,8 @@ enableEmoji = true
   # website images for Open Graph and Twitter Cards
   # 网站图片, 用于 Open Graph 和 Twitter Cards
   images = ["/images/avatar.png"]
+  # cdn变量，末尾不需要加/
+  cdnPrefix = "http://ubtcn.huaimingxiang.top:8830"
 
   # Header config
   # 页面头部导航栏配置

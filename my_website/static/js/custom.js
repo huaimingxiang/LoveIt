@@ -56,6 +56,7 @@ jQuery(document).ready(function($) {
 /* 轮播背景图片 */
 $(function () {
 	$.backstretch([
+		"/mage/DzhO",
 		"/images/111.png",
 		"/images/222.png",
 		"/images/333.png"
