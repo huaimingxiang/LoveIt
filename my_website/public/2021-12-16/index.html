@@ -247,7 +247,24 @@ Springboot官方建议使用final来修饰成员变量，然后通过构造方�
 
     <div class="post-nav"><a href="/2021-12-17/" class="prev" rel="prev" title=""><i class="fas fa-angle-left fa-fw"></i></a></div>
 </div>
-</article></div>
+<div id="comments"><div id="waline"></div>
+			<script src='https://cdn.jsdelivr.net/npm/@waline/client/dist/Waline.min.js'></script>
+
+			<script>
+		    	new Waline({
+		    	  el: '#waline',
+				  meta: ["nick","mail","link"],
+				  placeholder: "提交评论较慢，请等待几秒~",
+		    	  serverURL: "",
+		    	  avatarCDN: "https://sdn.geekzu.org/avatar/",
+		    	  requiredFields: ["nick","mail"],
+		    	  pageSize:  10 ,
+		    	  avatar: "retro",
+		    	  lang: "zh-CN",
+				  visitor:  true ,
+				  highlight:  true 
+		    	});
+		    </script></div></article></div>
             </main><footer class="footer">
         <div class="footer-container"><div class="footer-line"><i class="far fa-copyright fa-fw"></i><span itemprop="copyrightYear">2021</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/" target="_blank">huaimingxiang</a></span><span class="icp-splitter">&nbsp;|&nbsp;</span><br class="icp-br"/>
                     <span class="icp"><a target="_blank" rel="noopener" href="http://beian.miit.gov.cn/">沪ICP备2020034917号 | </a><a target="_blank" rel="noopener" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=31011702007891">沪公网安备31011702007891号</a></span></div>
