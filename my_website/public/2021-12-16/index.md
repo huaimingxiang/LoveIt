@@ -40,7 +40,7 @@
 
 多核心配置文件，支持多环境配置文件的切换
 
-<img src="http://ubtcn.huaimingxiang.top:8830/images/2021/12/17/202112170035123.png" alt="image-20211217003423689" style="zoom:50%;" />
+<img src="http://ubtcn.huaimingxiang.site:8830/images/2021/12/17/202112170035123.png" alt="image-20211217003423689" style="zoom:50%;" />
 
 
 

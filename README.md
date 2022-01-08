@@ -2,7 +2,7 @@
 
 [huaimingxiang.site](https://huaimingxiang.site)
 
-![](http://ubtcn.huaimingxiang.top:8830/images/2021/12/18/20211218133155.png)
+![](http://ubtcn.huaimingxiang.site:8830/images/2021/12/18/20211218133155.png)
 
 ### 这个一个什么东西
 1. LoveIt是一个hugo的主题，
@@ -52,7 +52,7 @@ Hugo是由Go语言实现的静态网站生成器。简单、易用、高效、�
 server
 { 
     listen 1313;
-    server_name ubtcn.huaimingxiang.top;
+    server_name ubtcn.huaimingxiang.site;
     index index.php index.html index.htm default.php default.htm default.html;
     root /home/huaimingxiang/git/my_website/public/;
 
@@ -85,7 +85,7 @@ server
 4. vscode有markdown，可以预览，有git工具，有终端，可以使用picgo的插件，整体是技术编辑的好帮手；
 5. picgo主要是配合自动上传到图床；
 6. 图床使用的是开源的chevereto，比较全方面，也可以支持下收费，几十块钱。
-![](http://ubtcn.huaimingxiang.top:8830/images/2021/12/18/20211218133929.png)
+![](http://ubtcn.huaimingxiang.site:8830/images/2021/12/18/20211218133929.png)
 
 
 
