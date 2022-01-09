@@ -1,7 +1,7 @@
 # 数据之巅
 
 
- ![](http://ubtcn.huaimingxiang.site:8830/images/2022/01/08/20220108143430.png)
+ ![](http://ubtcn.huaimingxiang.site:8830/images/2022/01/09/20220109202444.png)
 ### 第一部分，小数据时代。
  
  #### 人口普查
