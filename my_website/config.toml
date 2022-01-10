@@ -79,7 +79,7 @@ enableEmoji = true
         post = ""
         name = "关于"
         url = "/about/"
-        title = "about"
+        title = ""
         weight = 5
       [[languages.zh-cn.menu.main]]
         identifier = "github"
