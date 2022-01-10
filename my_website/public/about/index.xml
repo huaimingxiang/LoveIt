@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Abouts on Sunshine</title>
-    <link>http://ubtcn.huaimingxiang.top/about/</link>
+    <link>http://ubtcn.huaimingxiang.site/about/</link>
     <description>Recent content in Abouts on Sunshine</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
     <managingEditor>kidhsks@hotmail.com (huaimingxiang)</managingEditor>
     <webMaster>kidhsks@hotmail.com (huaimingxiang)</webMaster>
-    <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><atom:link href="http://ubtcn.huaimingxiang.top/about/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><atom:link href="http://ubtcn.huaimingxiang.site/about/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
-      <link>http://ubtcn.huaimingxiang.top/about/about/</link>
+      <link>http://ubtcn.huaimingxiang.site/about/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>kidhsks@hotmail.com (huaimingxiang)</author>
-      <guid>http://ubtcn.huaimingxiang.top/about/about/</guid>
+      <guid>http://ubtcn.huaimingxiang.site/about/about/</guid>
       <description>LoveIt huaimingxiang.site 这个一个什么东西 LoveIt是一个hugo的主题， Hugo是由Go语言实现的静态网站生成器。简单、易用、高效、易扩展、快速部署。 在mac</description>
     </item>
     
