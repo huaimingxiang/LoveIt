@@ -157,7 +157,7 @@ enableEmoji = true
           paginate = 6
       # 主页的社交信息设置
       [languages.zh-cn.params.social]
-        GitHub = "kidhsks@hotmail.com"
+        GitHub = "huaimingxiang"
         Linkedin = ""
         Twitter = ""
         Instagram = ""
@@ -177,7 +177,7 @@ enableEmoji = true
         FreeCodeCamp = ""
         Bitbucket = ""
         Stackoverflow = ""
-        Weibo = "https://weibo.com/huaimingxiang"
+        Weibo = "huaimingxiang"
         Odnoklassniki = ""
         VK = ""
         Flickr = ""
@@ -200,7 +200,7 @@ enableEmoji = true
         Strava = ""
         Skype = ""
         Whatsapp = ""
-        Zhihu = "https://www.zhihu.com/people/huai-ming-xiang/"
+        Zhihu = "huai-ming-xiang"
         Douban = ""
         Angellist = ""
         Slidershare = ""
